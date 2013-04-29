@@ -47,4 +47,4 @@ body{
   padding: 0px;  
 }
 
-.draggable { cursor: hand; }
+.draggable { cursor: move; }
