@@ -12,7 +12,9 @@
  *= require_tree .
 
  */
-
+body{
+  font-family: verdana;
+}
 
 #container{
   width: 100%;
@@ -21,7 +23,15 @@
 
 .huge{
   font-size: 35px;
-  font-weight: bold
+  font-weight: bold;
+}
+
+.huge input{
+  border: none;
+  font-size: 35px;
+  font-weight: bold;
+  font-family: verdana;  
+  padding: 0px;
 }
 
 .medium{
@@ -29,4 +39,12 @@
   color: gray;
 }
 
-.draggable { cursor: pointer; }
+.medium input{
+  border: none;  
+  font-size: 25px;
+  color: gray;
+  font-family: verdana;  
+  padding: 0px;  
+}
+
+.draggable { cursor: hand; }

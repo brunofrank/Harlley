@@ -15,8 +15,9 @@
 development:
   adapter: postgresql
   encoding: unicode
-  database: deliverit_dev
+  database: harlley_dev
   pool: 5
+  host: localhost
   username: postgres
   password: '123456'
 
@@ -41,15 +42,17 @@ development:
 test:
   adapter: postgresql
   encoding: unicode
-  database: deliverit_test
+  database: harlley_test
   pool: 5
+  host: localhost  
   username: postgres
   password: '123456'
 
 production:
   adapter: postgresql
   encoding: unicode
-  database: deliverit
+  database: harlley
   pool: 5
+  host: localhost  
   username: postgres
   password: '123456'
